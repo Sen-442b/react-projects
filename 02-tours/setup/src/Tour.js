@@ -6,6 +6,7 @@ const Tour = ({id,name,image,info,price,removeItem}) => {
  
 
   const [readMoreVar, setReadMoreVar]=useState(false)
+  
 
 
   

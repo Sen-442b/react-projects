@@ -27,8 +27,8 @@ Variables
   --clr-grey-6: hsl(209, 23%, 60%);
   --clr-grey-7: hsl(211, 27%, 70%);
   --clr-grey-8: hsl(210, 31%, 80%);
-  --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-9: hsl(212, 54%, 90%);
+  --clr-grey-10: hsla(150, 24%, 85%, 0.959);
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -63,6 +63,7 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+
 }
 ul {
   list-style-type: none;
@@ -264,4 +265,48 @@ Jobs
   background: var(--clr-primary-8);
 }
 .center-btn {
+}
+.main-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+
+
+}
+.main-data>div{
+  width: 400px;
+  height: 400px;
+}
+
+.comp-data{
+  display: block;
+  text-align: center;
+  background-color: #2caeba;
+  padding: 4.7rem;
+  min-width: 100%;
+  word-wrap: break-word;
+}
+
+.comp-data:hover{
+  background-color: #222;
+  color: #2caeba;
+  cursor: pointer;
+}
+
+.data-items{
+  background-color:rgb(217, 245, 185);
+  width: 100%;
+  text-align: center;
+
+}
+
+.comp{
+  background-color: #2caeba;
+}
+
+div{
+  border-radius: 5px;
+  overflow-wrap: break-word;
 }
